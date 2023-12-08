@@ -1,4 +1,6 @@
-package factory_method;
+package creational.factory_method;
+
+import creational.factory_method.Car;
 
 public class Jeep implements Car {
 

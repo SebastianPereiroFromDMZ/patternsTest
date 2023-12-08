@@ -1,6 +1,8 @@
-package factory_method;
+package creational.factory_method;
 
-public class Porsche implements Car{
+import creational.factory_method.Car;
+
+public class Porsche implements Car {
 
     @Override
     public void drive() {

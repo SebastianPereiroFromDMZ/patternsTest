@@ -1,4 +1,4 @@
-package factory_method;
+package creational.factory_method;
 
 //этот класс является фабрикой по созданию автомобилей
 public class CarSelector {

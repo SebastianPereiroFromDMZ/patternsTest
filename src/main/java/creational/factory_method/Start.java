@@ -1,4 +1,6 @@
-package factory_method;
+package creational.factory_method;
+
+import creational.factory_method.*;
 
 public class Start {
 
@@ -7,9 +9,14 @@ public class Start {
         //обычные варианты создания обьектов
         Car jeep = new Jeep();
         jeep.drive();
+        System.out.println("++++++++");
 
         Car porsche = new Porsche();
         porsche.drive();
+        System.out.println("+++++++");
+        System.out.println("Конец старых примеров");
+        System.out.println("*******");
+
 
         //ниже вариант создания обьектов через фабричный метод, также класс CarSelector у нас сделан под шаблон одиночка
         //пример использования двух шаблонов для простоты кода
